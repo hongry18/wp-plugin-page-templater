@@ -4,5 +4,6 @@
 Referenced by [https://github.com/wpexplorer/page-templater](https://github.com/wpexplorer/page-templater)
 
 ```php
-
+# set plugin template directory
+private $templateDir = '/your/wordpress/plugin/directory'
 ```
