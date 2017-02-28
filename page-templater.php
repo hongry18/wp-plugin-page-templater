@@ -21,7 +21,7 @@ class PageTemplater {
         return self::$instance;
     }
 
-    private $templateDir = '/var/www/html/wp-content/plugins/page-templater/templates';
+    private $templateDir = sprintf('%s/%s', dir(__FILE__), 'templates');
 
     /**
      * Initializes the plugin by setting filters and administration functions.
